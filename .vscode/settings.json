@@ -1,0 +1,16 @@
+{
+  "editor.insertSpaces": false,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // "eslint.validate": ["html", "javascript", "typescript"],
+  "git.enabled": true,
+  "git.autofetch": "all",
+  "git.autorefresh": true,
+  "git.ignoreLimitWarning": false,
+  "files.eol": "\n",
+  // "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.editor.enablePreview": false
+}
