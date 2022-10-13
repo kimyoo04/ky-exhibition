@@ -1,6 +1,7 @@
-import "public/style.css";
+import "public/reset.css";
 import {useState} from "react";
 import type {AppProps} from "next/app";
+import Head from "next/head";
 
 import {ThemeProvider} from "@emotion/react";
 import {darkTheme, lightTheme} from "@constants/styles/theme";
@@ -15,13 +16,24 @@ function MyApp({Component, pageProps}: AppProps) {
   const client = new QueryClient();
 
   return (
-    <Provider store={store}>
-      <QueryClientProvider client={client}>
-        <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
-          <Component {...pageProps} />
-        </ThemeProvider>
-      </QueryClientProvider>
-    </Provider>
+    <>
+      <Head>
+        <title>ky-exhibition</title>
+        <meta charSet="utf-8" />
+        <meta
+          name="description"
+          content="architecture exhibition made by Kim Yoo"
+        />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+      </Head>
+      <Provider store={store}>
+        <QueryClientProvider client={client}>
+          <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
+            <Component {...pageProps} />
+          </ThemeProvider>
+        </QueryClientProvider>
+      </Provider>
+    </>
   );
 }
 

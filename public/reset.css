@@ -1,0 +1,301 @@
+/* Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;&display=swap");
+/* Noto-Serif-KR */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600;700;900&display=swap");
+/* Noto-Serit */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;500;600;700&display=swap");
+/* Cormorant-Garamond */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap");
+/* Mukta */
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;600&display=swap");
+/* Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+menu,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+  display: none;
+}
+
+menu,
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body,
+button,
+input {
+  color: black;
+  font-weight: 300;
+}
+a,
+ul,
+li {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Serif Display", serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 8rem;
+  line-height: calc(8rem * 1.2);
+}
+h2 {
+  font-size: 7rem;
+  line-height: calc(7rem * 1.2);
+}
+h3 {
+  font-size: 6rem;
+  line-height: calc(6rem * 1.2);
+}
+h4 {
+  font-size: 5rem;
+  line-height: calc(5rem * 1.2);
+}
+h5 {
+  font-size: 4rem;
+  line-height: calc(4rem * 1.2);
+}
+h6 {
+  font-size: 3rem;
+  line-height: calc(3rem * 1.2);
+}
+
+.title__1 {
+  display: block;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: calc(6rem * 1.2);
+}
+
+.title__2 {
+  display: block;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 5.2rem;
+  line-height: calc(5.2rem * 1.2);
+}
+
+.title__3 {
+  display: block;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 4.6rem;
+  line-height: calc(4.6rem * 1.2);
+}
+
+.title__4 {
+  display: block;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: calc(4rem * 1.2);
+}
+
+.body__1 {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+  line-height: calc(3rem * 1.2);
+}
+
+.body__2 {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 2.6rem;
+  line-height: calc(2.6rem * 1.2);
+}
+
+.body__3 {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: calc(2.2rem * 1.2);
+}
+
+.body__4 {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: calc(1.8rem * 1.2);
+}
+
+.bold {
+  font-weight: 500;
+}
+.semi-bold {
+  font-weight: 400;
+}
+
+button {
+  font-family: "Mukta", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  cursor: pointer;
+}
+a {
+  font-family: "Mukta", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.montserrat__1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.montserrat__2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.montserrat__3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.montserrat__4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}

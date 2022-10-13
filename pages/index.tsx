@@ -5,16 +5,6 @@ import Head from "next/head";
 const Home: NextPage = () => {
   return (
     <div>
-      <Head>
-        <title>ky-exhibition</title>
-        <meta charSet="utf-8" />
-        <meta
-          name="description"
-          content="architecture exhibition made by Kim Yoo"
-        />
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-      </Head>
-
       <Header>
         <Column>Header</Column>
       </Header>
@@ -26,6 +16,15 @@ const Home: NextPage = () => {
         <h4>h4 is the best</h4>
         <h5>h5 is the best</h5>
         <h6>h6 is the best</h6>
+        <span className="title__1">title__1 is the best</span>
+        <span className="title__2">title__2 is the best</span>
+        <span className="title__3">title__3 is the best</span>
+        <span className="title__4">title__4 is the best</span>
+        <span className="body__1">body__1 is the best</span>
+        <span className="body__2">body__2 is the best</span>
+        <span className="body__3 semi-bold">body__3 is the best</span>
+        <span className="body__4 bold">body__4 is the best</span>
+        <button>asdsad</button>
       </Column>
 
       <Main>
