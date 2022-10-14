@@ -161,37 +161,39 @@ li {
   color: inherit;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.headLine__1 {
   font-family: "Noto Serif Display", serif;
   font-weight: 600;
-}
-
-h1 {
   font-size: 8rem;
   line-height: calc(8rem * 1.2);
 }
-h2 {
+.headLine__2 {
+  font-family: "Noto Serif Display", serif;
+  font-weight: 600;
   font-size: 7rem;
   line-height: calc(7rem * 1.2);
 }
-h3 {
+.headLine__3 {
+  font-family: "Noto Serif Display", serif;
+  font-weight: 600;
   font-size: 6rem;
   line-height: calc(6rem * 1.2);
 }
-h4 {
+.headLine__4 {
+  font-family: "Noto Serif Display", serif;
+  font-weight: 600;
   font-size: 5rem;
   line-height: calc(5rem * 1.2);
 }
-h5 {
+.headLine__5 {
+  font-family: "Noto Serif Display", serif;
+  font-weight: 600;
   font-size: 4rem;
   line-height: calc(4rem * 1.2);
 }
-h6 {
+.headLine__6 {
+  font-family: "Noto Serif Display", serif;
+  font-weight: 600;
   font-size: 3rem;
   line-height: calc(3rem * 1.2);
 }
