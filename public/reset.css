@@ -161,39 +161,37 @@ li {
   color: inherit;
 }
 
-.headLine__1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Noto Serif Display", serif;
   font-weight: 600;
+}
+
+h1 {
   font-size: 8rem;
   line-height: calc(8rem * 1.2);
 }
-.headLine__2 {
-  font-family: "Noto Serif Display", serif;
-  font-weight: 600;
+h2 {
   font-size: 7rem;
   line-height: calc(7rem * 1.2);
 }
-.headLine__3 {
-  font-family: "Noto Serif Display", serif;
-  font-weight: 600;
+h3 {
   font-size: 6rem;
   line-height: calc(6rem * 1.2);
 }
-.headLine__4 {
-  font-family: "Noto Serif Display", serif;
-  font-weight: 600;
+h4 {
   font-size: 5rem;
   line-height: calc(5rem * 1.2);
 }
-.headLine__5 {
-  font-family: "Noto Serif Display", serif;
-  font-weight: 600;
+h5 {
   font-size: 4rem;
   line-height: calc(4rem * 1.2);
 }
-.headLine__6 {
-  font-family: "Noto Serif Display", serif;
-  font-weight: 600;
+h6 {
   font-size: 3rem;
   line-height: calc(3rem * 1.2);
 }
